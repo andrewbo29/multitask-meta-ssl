@@ -1,0 +1,26 @@
+name: simclr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - filelock
+  - jupyterlab
+  - pandas
+  - readline
+  - scikit-learn
+  - scipy
+  - six
+  - tabulate
+  - tqdm
+  - pyyaml
+  - yaml
+  - cvxpy
+  - configargparse
